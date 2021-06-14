@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 90%;
   margin: 0 auto;
 }
@@ -45,9 +45,9 @@ a {
 .main-nav a {
   text-decoration: none;
   font-size: 1.5rem;
-  border: 2px solid rgba(0, 114, 225, 0.8);
   background-color: rgba(0, 114, 225, 1);
-  padding: 5px;
+  padding: 7.5px;
+  border-radius: 5%;
   color: white;
 }
 
@@ -65,12 +65,15 @@ a {
 }
 
 /* welcome section */
+
 .welcome {
-  margin: 5em 0;
+  margin-top: 1rem;
 }
+
 .welcome h1 {
   font-size: 4rem;
   text-align: center;
+  margin: 0;
 }
 
 .welcome p {
@@ -83,6 +86,14 @@ a {
   width: 80%;
   margin: 20px auto;
 }
+
+.welcome-list {
+  display: block;
+  text-align: auto;
+  margin-bottom: 3rem;
+  margin: 0 auto;
+}
+
 /* footer */
 .footer {
   background-color: rgba(0, 114, 225, 1);
